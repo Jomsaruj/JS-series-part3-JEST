@@ -38,6 +38,30 @@ test('adds 1 + 2 to equal 3', () => {
 
 Test should pass, if not ก็ไม่รู้แล้วเหมือนกัน :(
 
+### How to test an object
+
+1. create file name object.js
+
+```
+function createObject() {
+    const myObject = {firstname: 'Saruj'}
+    myObject['lastname'] = 'Sattayanurak'
+    return myObject;
+}
+module.exports = createObject;
+```
+2. create file name object.test.js
+
+```
+const createObject = require('./object');
+
+test('object assignment', () => {
+    const data = createObject()
+    expect(data).toEqual({firstname: 'Saruj', lastname: 'Sattayanurak'});
+  });
+```
+3. run ```npm run test``` , test should pass
+
 # References
 - https://jestjs.io/docs/getting-started
 - https://cucumber.io/docs/installation/javascript/
