@@ -2,6 +2,7 @@
 
 Here is my first experience withunit tetsing in JavaScript using JEST and Cucumber.
 
+
 ### How to create your first unit test with JEST
 
 0. you can start with an empty directory
@@ -36,3 +37,6 @@ test('adds 1 + 2 to equal 3', () => {
 6. now, you are ready to run your first unit test. run ```npm run test```
 
 Test should pass, if not ก็ไม่รู้แล้วเหมือนกัน :(
+
+# Reference
+https://jestjs.io/docs/getting-started
