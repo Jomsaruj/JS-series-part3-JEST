@@ -38,6 +38,6 @@ test('adds 1 + 2 to equal 3', () => {
 
 Test should pass, if not ก็ไม่รู้แล้วเหมือนกัน :(
 
-# Reference
-https://jestjs.io/docs/getting-started
-https://cucumber.io/docs/installation/javascript/
+# References
+- https://jestjs.io/docs/getting-started
+- https://cucumber.io/docs/installation/javascript/
