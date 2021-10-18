@@ -35,4 +35,4 @@ test('adds 1 + 2 to equal 3', () => {
 ```
 6. now, you are ready to run your first unit test. run ```npm run test```
 
-Test should pass, if not ก็ไม่รู้เหมือนกัน :(
+Test should pass, if not ก็ไม่รู้แล้วเหมือนกัน :(
