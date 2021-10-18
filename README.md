@@ -7,7 +7,7 @@ Here is my first experience withunit tetsing in JavaScript using JEST and Cucumb
 0. you can start with an empty directory
 1. set up your project by first run ```npm init``` then you will get package.json file
 2. run ```npm i --save-dev jest```
-3. modify value to test to be jest
+3. modify value of test in package.json to be jest
 ```
 {
   "scripts": {
