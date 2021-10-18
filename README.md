@@ -1,6 +1,6 @@
 # JavaScript testing with JEST and Cucumber
 
-Here is my first experience withunit tetsing in JavaScript using JEST and Cucumber.
+Here is my first experience with unit tetsing in JavaScript using JEST and Cucumber.
 
 
 ### How to create your first unit test with JEST
